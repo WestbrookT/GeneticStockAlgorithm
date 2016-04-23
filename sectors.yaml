@@ -1,11 +1,2 @@
-auto:
-- {F: ford}
-- {GM: general motors}
-- {TSLA: tesla}
-- {TM: toyota}
-- {VOW3: volkswagon}
-tech:
-- {FB: facebook}
-- {GOOG: google}
-- {MSFT: microsoft}
-- {AAPL: apple}
+auto: {F: ford, GM: general motors, TM: toyota, TSLA: tesla}
+tech: {AAPL: apple, FB: facebook, GOOG: google, MSFT: microsoft}

@@ -37,5 +37,5 @@ trainfeats = negfeats + posfeats
 print(negfeats[0])
 
 classifier = NaiveBayesClassifier.train(trainfeats)
-print(classifier.classify(prepare(mytext)))
+print(classifier.classify(prepare('hitler is a hero')))
 
